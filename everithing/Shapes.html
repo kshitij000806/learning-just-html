@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .heart::after,
+        .heart::before {
+            content: '';
+            position: absolute;
+            width: 52px;
+            height: 80px;
+            background: red;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+        }
+
+        .heart::before {
+            left: 32px;
+        }
+
+        .heart::after {
+            left: 52px;
+            transform: rotate(45deg);
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #555;
+            align-items: 100px;
+        }
+
+        .rectangle {
+            height: 50px;
+            width: 100px;
+            background-color: #555;
+        }
+
+        .rectangles {
+            height: 50px;
+            width: 100px;
+            background-color: #555;
+            border-radius: 10px;
+        }
+
+        .parallelogram {
+            width: 100px;
+            height: 50px;
+            transform: skew(20deg);
+            background: #555;
+        }
+
+        .rhombus {
+            width: 50px;
+            height: 50px;
+            background-color: #555;
+            transform: rotate(45deg);
+            left: 50px;
+            top: 50px;
+        }
+
+        .triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 50px solid #555;
+        }
+
+        .triangle-right {
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-left: 50px solid #555;
+            border-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="">
+        <button class="rectangle"> google</button>
+    </a>
+
+    <a href="">
+        <button class="rectangles"> google</button>
+    </a>
+  
+
+    <a href="">
+        <button class="rhombus"> google</button>
+    </a>
+
+    <a href="">
+        <button class="triangle-up"> google</button>
+    </a>
+
+    <br>
+
+    <a href="">
+        <button class="heart"> google</button>
+    </a>
+
+    <a href="">
+        <button class="circle"> google</button>
+    </a>
+
+    <a href="">
+        <button class="parallelogram"> google</button>
+    </a>
+
+    <a href="">
+        <button class="triangle-right"> google</button>
+    </a>
+
+
+</body>
+
+</html>
